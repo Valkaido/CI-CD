@@ -1,2 +1,6 @@
-# CI-CD
-TP 2
+# TP2 - CI-CD
+## Résumé du projet
+
+## Pré-requis
+
+## Installation
