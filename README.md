@@ -57,7 +57,20 @@ La pipeline CI/CD automatisée est configurée dans le fichier **.github/workflo
 ## Démo et Tests de la Pipeline CI/CD
 Pour tester la pipeline CI/CD, effectuez les étapes suivantes :
 
-1.  Effectuez des changements dans le code.
-2.  Poussez les changements vers la branche principale du repository GitHub.
+1.  Effectuez des changements dans le code (exemple fichier app.py) depuis VSCode :
+```
+@app.route("/")
+def home():
+    return "Welcome to the Flask CI/CD Demo! This is V3!"
+```
+2.  Poussez les changements vers la branche principale du repository GitHub (dans le terminal VSCode) :
+```
+git add.py
+git commit -m "Update app.py"
+git push
+```
 3.  Suivez l'exécution de la pipeline CI/CD dans l'onglet "Actions" de votre repository GitHub.
+<img src="https://cdn.discordapp.com/attachments/873558423793446987/1220312468476395571/image.png?ex=660e7b8c&is=65fc068c&hm=9424fc59425adf604b207b81b31511bc136c347d54f774d5baaf783cdbb85ea1&">
+<img src="https://cdn.discordapp.com/attachments/873558423793446987/1220312516337598464/image.png?ex=660e7b98&is=65fc0698&hm=51f5d13109109bd57c471f5fd407130a24a83c3f76bd557f575947767f65acac&">
 4.  Vérifiez que les tests passent avec succès et que l'application est déployée sur Azure Web App.
+<img src="https://cdn.discordapp.com/attachments/873558423793446987/1220302141453766706/image.png?ex=660e71ee&is=65fbfcee&hm=899088e8c75b245c961b8dc83ef83d7389635c66742a5d68e29e8c35828776d0&">
