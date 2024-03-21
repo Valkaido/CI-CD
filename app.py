@@ -14,6 +14,7 @@ def new_deployment():
 def info():
     user_agent = request.headers.get('User-Agent')
     return f"Your user agent is: {user_agent}"
+    return "test"
 
 if __name__ == "__main__":
     app.run(debug=True)
