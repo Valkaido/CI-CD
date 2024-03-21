@@ -5,6 +5,11 @@ Ce repository GitHub contient un prototype simple d'une application Flask avec u
 - Python 3.x
 - Un compte GitHub
 - Un compte Azure avec accès à Azure Web App
+## Microsoft Azure
+- Créer une web application depuis le portail azure
+- Récupérer le profil de publication de la web app
+- Aller dans les settings de son repository puis dans **Secrets and variables** puis **Actions**
+- Ajouter un nouveau repository secret avec comme nom : **AZURE_WEBAPP_PUBLISH_PROFILE** à l'intérieur de celui-ci copier coller ce que vous avez dans le fichier que vous venez de télécharger précédemment.
 ## Contenu du Repository
 - **app.py**: Fichier principal de l'application Flask contenant les routes et la logique métier.
 - **test_app.py**: Fichier de test unitaire pour l'application Flask.
@@ -74,4 +79,4 @@ git push
 <img src="https://cdn.discordapp.com/attachments/873558423793446987/1220312516337598464/image.png?ex=660e7b98&is=65fc0698&hm=51f5d13109109bd57c471f5fd407130a24a83c3f76bd557f575947767f65acac&">
 4.  Vérifiez que les tests passent avec succès et que l'application est déployée sur Azure Web App.
 <img src="https://cdn.discordapp.com/attachments/873558423793446987/1220302141453766706/image.png?ex=660e71ee&is=65fbfcee&hm=899088e8c75b245c961b8dc83ef83d7389635c66742a5d68e29e8c35828776d0&">
-Une fois que l'icone est verte, cela veut dire que le test est un succès.
+L'exemple ci-dessus montre un test qui a bien était déployé sur Azure Web App.
