@@ -14,7 +14,6 @@ Ce repository GitHub contient un prototype simple d'une application Flask avec u
 - **app.py**: Fichier principal de l'application Flask contenant les routes et la logique métier.
 - **test_app.py**: Fichier de test unitaire pour l'application Flask.
 - **requirements.txt**: Fichier spécifiant les dépendances Python nécessaires à l'application.
-- **azure-pipelines.yml**: Fichier de configuration de la pipeline CI/CD pour Azure DevOps.
 - **.github/workflows/main.yml**: Fichier de configuration de la pipeline CI/CD utilisant GitHub Actions.
 - **README.md**: Fichier de documentation expliquant le projet et fournissant des instructions pour le configurer et l'exécuter.
 ## Installation & Exécution
