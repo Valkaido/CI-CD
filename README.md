@@ -22,23 +22,6 @@ Ce repository GitHub contient un prototype simple d'une application Flask avec u
 git clone https://github.com/Valkaido/CI-CD/
 cd CI-CD
 ```
-### Création de l'environnement virtuel
-```
-python3 -m venv venv
-source venv/bin/activate
-```
-### Installation des dépendances
-```
-pip install -r requirements.txt
-```
-### Lancement des tests unitaires
-```
-python -m pytest -v
-```
-### Lancement de l'application en local
-```
-python app.py
-```
 ## Fonctionnalités de l'Application
 -  Route **Racine (/)**
     - Affiche un message de bienvenue.
